@@ -1,0 +1,22 @@
+const Colors = {
+  white: '#FFFFFF',
+  back: '#000000',
+  backgroundModal: '#bc8f8f',
+  darkGreen: '#116149',
+  lightGreen: '#13AA52',
+  gray: '#98a1b1',
+  darkGray: '#A9A9A9',
+  orange: '#E2974D',
+  backgroundColor: '#f0f3f8',
+  tomato: '#f03d3d',
+  txtOnBackgroundHeader: '#A0C0B6',
+  txtDark: '#0a1f44',
+  backgroundColorProgress: '#e1e4e8',
+  process: '#06d49a',
+  line: '#e6e8ea',
+  backgroundButtonCancel: '#e7eaee',
+  backgroundIconWorking: '#E7F8FF',
+  backgroundIconProcessing: '#FFF6E6',
+  backgroundIconWorkOutDated: '#FDEBEB',
+};
+export default Colors;

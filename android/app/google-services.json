@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "114294874497",
+    "firebase_url": "https://meka-7a083.firebaseio.com",
+    "project_id": "meka-7a083",
+    "storage_bucket": "meka-7a083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114294874497:android:b8354281872de88ebfc880",
+        "android_client_info": {
+          "package_name": "com.meka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114294874497-d9qlmr47dt707s10f18itb11kh9tnvnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meka",
+            "certificate_hash": "7cf473952604e7ac131836b45c44f09e6dfa1389"
+          }
+        },
+        {
+          "client_id": "114294874497-re8bg445it6b3i3e3t4128im5cfhlkc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meka",
+            "certificate_hash": "f5e244b9563b87e47f1f930ba3e235ed0e03d6f6"
+          }
+        },
+        {
+          "client_id": "114294874497-38a000q6ejfnn7ifpq12pgiv61rctn99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYc0Ci_f385tatWjJemW7OnYqPtV2ClDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114294874497-38a000q6ejfnn7ifpq12pgiv61rctn99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114294874497-iuebbugj6b3e6ijh10b7o36bfve2jb4f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.meka"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

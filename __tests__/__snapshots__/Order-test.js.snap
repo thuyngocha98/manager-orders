@@ -1,0 +1,2693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={true}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    statusBarTranslucent={true}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={true}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      statusBarTranslucent={true}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexDirection": "column",
+            "overflow": "hidden",
+            "paddingBottom": 71,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "paddingHorizontal": 14,
+              "paddingTop": 53.5,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#0a1f44",
+                "fontFamily": "HelveticaNeue-Medium",
+                "fontSize": 53.5,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Lọc đơn hàng theo trạng thái
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#0a1f44",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginLeft": 9,
+                }
+              }
+            >
+              Tất cả
+            </Text>
+            <View
+              style={
+                Object {
+                  "paddingRight": 53.5,
+                  "paddingVertical": 35.5,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#116149",
+                    "borderRadius": 4,
+                    "borderWidth": 2,
+                    "height": 60.5,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60.5,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={46}
+                  bbWidth={46}
+                  fill="#116149"
+                  focusable={false}
+                  height={46}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 46,
+                        "width": 46,
+                      },
+                    ]
+                  }
+                  vbHeight={78.369}
+                  vbWidth={78.369}
+                  width={46}
+                >
+                  <RNSVGGroup
+                    fill={4279329097}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGPath
+                      d="M78.049 19.015L29.458 67.606a1.094 1.094 0 01-1.548 0L.32 40.015a1.094 1.094 0 010-1.547l6.704-6.704a1.095 1.095 0 011.548 0l20.113 20.112 41.113-41.113a1.095 1.095 0 011.548 0l6.703 6.704a1.094 1.094 0 010 1.548z"
+                      fill={4279329097}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={20}
+                bbWidth={20}
+                fill="#E2974D"
+                focusable={false}
+                height={20}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 20,
+                      "width": 20,
+                    },
+                  ]
+                }
+                vbHeight={20}
+                vbWidth={20}
+                width={20}
+              >
+                <RNSVGGroup
+                  fill={4293039949}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGPath
+                      d="M16.991 4.344c.47 0 .911.183 1.243.515l1.657 1.657c.332.332.515.773.515 1.243v13.655a.586.586 0 01-.586.586H6.93a.586.586 0 01-.586-.586V4.93c0-.324.262-.586.586-.586zM17.477 2c.323 0 .585.262.585.586v.586H6.93c-.971 0-1.758.787-1.758 1.758v14.648h-.586A.586.586 0 014 18.992V2.586C4 2.262 4.262 2 4.586 2zm-5.86 14.063H9.273a.585.585 0 00-.585.585v2.344c0 .324.262.586.585.586h2.344a.586.586 0 00.586-.586v-2.344a.585.585 0 00-.586-.585zm-.586 1.171v1.172H9.86v-1.172h1.172zm6.446 0H13.96a.586.586 0 100 1.172h3.516a.585.585 0 000-1.172zm-5.86-5.859H9.273a.585.585 0 00-.585.586v2.344c0 .324.262.586.585.586h2.344a.586.586 0 00.586-.586V11.96a.586.586 0 00-.586-.586zm-.586 1.172v1.172H9.86v-1.172h1.172zm6.446 0H13.96a.586.586 0 100 1.172h3.516a.585.585 0 000-1.172zM13.96 9.03H9.273a.585.585 0 000 1.172h4.688a.586.586 0 100-1.172zm3.03-3.515h-.1v2.343h2.343v-.1a.593.593 0 00-.171-.415l-1.657-1.657a.592.592 0 00-.415-.171zm-3.03 1.171H9.273a.586.586 0 000 1.172h4.688a.586.586 0 100-1.171z"
+                      name="prefix__a"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGGroup
+                    fill={null}
+                    fillRule={0}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -2,
+                        -2,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  >
+                    <RNSVGMask
+                      fill={4294967295}
+                      height="100%"
+                      maskContentUnits={1}
+                      maskTransform={
+                        Array [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                        ]
+                      }
+                      maskUnits={0}
+                      name="prefix__b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0%"
+                      y="0%"
+                    >
+                      <RNSVGUse
+                        height={0}
+                        href="prefix__a"
+                        width={0}
+                        x={0}
+                        y={0}
+                      />
+                    </RNSVGMask>
+                    <RNSVGUse
+                      fill={4293039949}
+                      height={20}
+                      href="prefix__a"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width={20}
+                      x={0}
+                      y={0}
+                    />
+                    <RNSVGGroup
+                      fill={4293039949}
+                      mask="prefix__b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M0 0h24.161v24H0z"
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginLeft": 9,
+                  }
+                }
+              >
+                Đang giao dịch
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingRight": 53.5,
+                  "paddingVertical": 35.5,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#98a1b1",
+                    "borderRadius": 4,
+                    "borderWidth": 2,
+                    "height": 60.5,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60.5,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={46}
+                  bbWidth={46}
+                  fill="#FFFFFF"
+                  focusable={false}
+                  height={46}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 46,
+                        "width": 46,
+                      },
+                    ]
+                  }
+                  vbHeight={78.369}
+                  vbWidth={78.369}
+                  width={46}
+                >
+                  <RNSVGGroup
+                    fill={4294967295}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGPath
+                      d="M78.049 19.015L29.458 67.606a1.094 1.094 0 01-1.548 0L.32 40.015a1.094 1.094 0 010-1.547l6.704-6.704a1.095 1.095 0 011.548 0l20.113 20.112 41.113-41.113a1.095 1.095 0 011.548 0l6.703 6.704a1.094 1.094 0 010 1.548z"
+                      fill={4294967295}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={20}
+                bbWidth={20}
+                focusable={false}
+                height={20}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 20,
+                      "width": 20,
+                    },
+                  ]
+                }
+                vbHeight={20}
+                vbWidth={20}
+                width={20}
+              >
+                <RNSVGGroup>
+                  <RNSVGDefs>
+                    <RNSVGPath
+                      d="M6.93 4.344v.586a1.76 1.76 0 001.758 1.758h5.859a1.76 1.76 0 001.758-1.758v-.586h1.172c.969 0 1.757.788 1.757 1.758v14.14c0 .97-.788 1.758-1.757 1.758H5.757A1.76 1.76 0 014 20.242V6.102c0-.97.789-1.758 1.758-1.758H6.93zm4.687 4.765c-2.908 0-5.273 2.366-5.273 5.274s2.365 5.273 5.273 5.273a5.28 5.28 0 005.274-5.273 5.28 5.28 0 00-5.274-5.274zm0 1.172a4.106 4.106 0 014.102 4.102 4.106 4.106 0 01-4.102 4.101 4.106 4.106 0 01-4.101-4.101 4.106 4.106 0 014.101-4.102zm0 1.172a.586.586 0 00-.586.586v2.344c0 .324.262.586.586.586h2.344a.586.586 0 100-1.172h-1.758v-1.758a.586.586 0 00-.586-.586zm0-9.453c.496 0 .94.314 1.106.782l.138.39h1.1c.647 0 1.172.525 1.172 1.172v.586a.587.587 0 01-.586.586h-5.86a.586.586 0 01-.585-.586v-.586c0-.647.524-1.172 1.171-1.172h1.1l.139-.39c.166-.468.61-.782 1.105-.782z"
+                      name="prefix__a"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGGroup
+                    fill={null}
+                    fillRule={0}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -2,
+                        -2,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  >
+                    <RNSVGMask
+                      fill={4294967295}
+                      height="100%"
+                      maskContentUnits={1}
+                      maskTransform={
+                        Array [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                        ]
+                      }
+                      maskUnits={0}
+                      name="prefix__b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0%"
+                      y="0%"
+                    >
+                      <RNSVGUse
+                        height={0}
+                        href="prefix__a"
+                        width={0}
+                        x={0}
+                        y={0}
+                      />
+                    </RNSVGMask>
+                    <RNSVGUse
+                      fill={4279329097}
+                      height={0}
+                      href="prefix__a"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width={0}
+                      x={0}
+                      y={0}
+                    />
+                    <RNSVGGroup
+                      fill={4279329097}
+                      mask="prefix__b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M0 0h24.161v24H0z"
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginLeft": 9,
+                  }
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingRight": 53.5,
+                  "paddingVertical": 35.5,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#98a1b1",
+                    "borderRadius": 4,
+                    "borderWidth": 2,
+                    "height": 60.5,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60.5,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  align="xMidYMid"
+                  bbHeight={46}
+                  bbWidth={46}
+                  fill="#FFFFFF"
+                  focusable={false}
+                  height={46}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 46,
+                        "width": 46,
+                      },
+                    ]
+                  }
+                  vbHeight={78.369}
+                  vbWidth={78.369}
+                  width={46}
+                >
+                  <RNSVGGroup
+                    fill={4294967295}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGPath
+                      d="M78.049 19.015L29.458 67.606a1.094 1.094 0 01-1.548 0L.32 40.015a1.094 1.094 0 010-1.547l6.704-6.704a1.095 1.095 0 011.548 0l20.113 20.112 41.113-41.113a1.095 1.095 0 011.548 0l6.703 6.704a1.094 1.094 0 010 1.548z"
+                      fill={4294967295}
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#116149",
+        "flexDirection": "column",
+        "height": 226.5,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 70,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "HelveticaNeue-Medium",
+              "fontSize": 60.5,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Đơn hàng
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={92.5}
+            bbWidth={60.5}
+            focusable={false}
+            height={92.5}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 92,
+                  "width": 60,
+                },
+              ]
+            }
+            vbHeight={60}
+            vbWidth={60}
+            width={60.5}
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M30 16c4.411 0 8-3.589 8-8s-3.589-8-8-8-8 3.589-8 8 3.589 8 8 8zM30 44c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM30 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"
+                fill={4294967295}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f0f3f8",
+        "borderColor": "#116149",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "margin": 14,
+        "paddingLeft": 4.5,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight={71}
+      bbWidth={18.5}
+      fill="#116149"
+      focusable={false}
+      height={71}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 71,
+            "width": 18,
+          },
+        ]
+      }
+      vbHeight={20}
+      vbWidth={20}
+      width={18.5}
+    >
+      <RNSVGGroup
+        fill={4279329097}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGDefs>
+          <RNSVGPath
+            d="M10.5 2a8.5 8.5 0 016.677 13.761l4.53 4.532a1 1 0 01-1.414 1.414l-4.532-4.53A8.5 8.5 0 1110.5 2zm0 2a6.5 6.5 0 104.548 11.144l.045-.051a.716.716 0 01.05-.046A6.5 6.5 0 0010.5 4z"
+            name="a"
+          />
+        </RNSVGDefs>
+        <RNSVGGroup
+          fill={null}
+          fillRule={0}
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              -2,
+              -2,
+            ]
+          }
+          propList={
+            Array [
+              "fill",
+              "fillRule",
+            ]
+          }
+        >
+          <RNSVGMask
+            fill={4294967295}
+            height="100%"
+            maskContentUnits={1}
+            maskTransform={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            maskUnits={0}
+            name="b"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width="100%"
+            x="0%"
+            y="0%"
+          >
+            <RNSVGUse
+              height={0}
+              href="a"
+              width={0}
+              x={0}
+              y={0}
+            />
+          </RNSVGMask>
+          <RNSVGUse
+            fill={4279329097}
+            height={71}
+            href="a"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width={18.5}
+            x={0}
+            y={0}
+          />
+          <RNSVGGroup
+            fill={4279329097}
+            mask="b"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M0 0h24.161v24H0z"
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <TextInput
+      allowFontScaling={true}
+      placeholder="Nhập tên, số điện thoại, mã"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "fontFamily": "HelveticaNeue-Medium",
+          "fontSize": 53.5,
+          "height": 142.5,
+          "marginLeft": 4.5,
+          "paddingVertical": 0,
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "marginLeft": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#0a1f44",
+            "fontFamily": "HelveticaNeue-Medium",
+            "fontSize": 57,
+            "fontWeight": "bold",
+            "marginRight": 9,
+          }
+        }
+      >
+        Tất cả
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#98a1b1",
+            "borderRadius": 7,
+            "height": 14,
+            "paddingHorizontal": 9,
+          }
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 89,
+          "justifyContent": "flex-start",
+          "marginRight": 9,
+          "opacity": 1,
+          "width": 23,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={71}
+        bbWidth={18.5}
+        enableBackground="new 0 0 440.424 440.424"
+        fill="#98a1b1"
+        focusable={false}
+        height={71}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 71,
+              "width": 18,
+            },
+          ]
+        }
+        vbHeight={440.424}
+        vbWidth={440.424}
+        width={18.5}
+        x="0px"
+        xmlSpace="preserve"
+        y="0px"
+      >
+        <RNSVGGroup
+          fill={4288192945}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M248.947 211.069L217.6 179.722l14.629-20.898a104.502 104.502 0 01-9.404-24.033l-23.51-4.18v-10.449H19.592l131.657 133.224c1.567 1.567 1.045 1.567 1.045 3.657v183.38l67.918-31.869v-151.51a7.314 7.314 0 011.567-5.747l51.722-52.767-3.657-1.567-20.897 14.106z"
+            fill={4288192945}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          />
+          <RNSVGCircle
+            cx={320.522}
+            cy={107.624}
+            r={32.914}
+          />
+          <RNSVGPath
+            d="M406.727 95.086l-1.567-5.224a93.518 93.518 0 00-12.016-29.257l-2.612-4.18 12.539-18.286-12.539-13.061-18.286 13.061-4.702-3.135a84.633 84.633 0 00-29.257-12.016l-5.224-1.045L329.404 0h-17.763l-3.657 21.943-5.224 2.09a87.767 87.767 0 00-29.257 11.494l-4.702 2.612L251.037 25.6l-13.061 12.539 12.539 18.286-2.612 4.702a91.949 91.949 0 00-11.494 28.735v5.224l-20.898 3.657v18.286l20.898 3.657v5.224a93.518 93.518 0 0012.016 29.257l2.612 4.702-13.061 17.763 13.061 13.061 17.763-12.539 4.702 3.135a96.12 96.12 0 0029.257 12.016l5.224 2.09 3.657 24.033h17.763l3.657-24.033 5.224-2.09a79.932 79.932 0 0029.257-12.539l4.702-2.612 18.286 12.539 12.539-13.061-13.061-18.286 3.135-4.702a82.013 82.013 0 0012.016-28.735l1.567-5.224 22.465-3.657V98.743l-22.463-3.657zm-86.205 61.126c-26.834 0-48.588-21.753-48.588-48.588 0-26.834 21.754-48.588 48.588-48.588s48.588 21.753 48.588 48.588-21.753 48.588-48.588 48.588z"
+            fill={4288192945}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          />
+          <RNSVGPath
+            d="M199.314 85.682L222.824 82.547 225.437 73.143 11.233 73.143 11.233 104.49 199.314 104.49z"
+            fill={4288192945}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "height": 142.5,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f0f3f8",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#13AA52",
+          "fontFamily": "HelveticaNeue-Medium",
+          "fontSize": 50,
+          "fontWeight": "normal",
+          "marginLeft": 14,
+        }
+      }
+    >
+      113 
+      Đơn hàng
+    </Text>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "id": 0,
+            "money": "500",
+            "name": "SON00113",
+            "status": "Đang giao dịch",
+            "time": "19 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 1,
+            "money": "100",
+            "name": "SON00112",
+            "status": "Đang giao dịch",
+            "time": "19 thg 5",
+            "typeCustomer": "Pham Thi Nhu Ngoc",
+          },
+          Object {
+            "id": 2,
+            "money": "3.800.000",
+            "name": "SON00111",
+            "status": "Hoàn thành",
+            "time": "9 thg 5",
+            "typeCustomer": "Livestream",
+          },
+          Object {
+            "id": 3,
+            "money": "3.000",
+            "name": "SON00110",
+            "status": "Đang giao dịch",
+            "time": "18 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 4,
+            "money": "50.000",
+            "name": "SON00109",
+            "status": "Hoàn thành",
+            "time": "11 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 5,
+            "money": "3.800.000",
+            "name": "SON00111",
+            "status": "Hoàn thành",
+            "time": "9 thg 5",
+            "typeCustomer": "Livestream",
+          },
+          Object {
+            "id": 6,
+            "money": "3.000",
+            "name": "SON00110",
+            "status": "Đang giao dịch",
+            "time": "18 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 7,
+            "money": "50.000",
+            "name": "SON00109",
+            "status": "Hoàn thành",
+            "time": "11 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 8,
+            "money": "3.800.000",
+            "name": "SON00111",
+            "status": "Hoàn thành",
+            "time": "9 thg 5",
+            "typeCustomer": "Livestream",
+          },
+          Object {
+            "id": 9,
+            "money": "3.000",
+            "name": "SON00110",
+            "status": "Đang giao dịch",
+            "time": "18 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+          Object {
+            "id": 10,
+            "money": "49.999",
+            "name": "SON00109",
+            "status": "Hoàn thành",
+            "time": "11 thg 5",
+            "typeCustomer": "Khách lẻ",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={0}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00113
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    19 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    500
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#E2974D",
+                        },
+                      ]
+                    }
+                  >
+                    Đang giao dịch
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00112
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Pham Thi Nhu Ngoc
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    19 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#E2974D",
+                        },
+                      ]
+                    }
+                  >
+                    Đang giao dịch
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00111
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Livestream
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    9 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.800.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#13AA52",
+                        },
+                      ]
+                    }
+                  >
+                    Hoàn thành
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00110
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    18 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#E2974D",
+                        },
+                      ]
+                    }
+                  >
+                    Đang giao dịch
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00109
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    11 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    50.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#13AA52",
+                        },
+                      ]
+                    }
+                  >
+                    Hoàn thành
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00111
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Livestream
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    9 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.800.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#13AA52",
+                        },
+                      ]
+                    }
+                  >
+                    Hoàn thành
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00110
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    18 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#E2974D",
+                        },
+                      ]
+                    }
+                  >
+                    Đang giao dịch
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00109
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    11 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    50.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#13AA52",
+                        },
+                      ]
+                    }
+                  >
+                    Hoàn thành
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00111
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Livestream
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    9 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.800.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#13AA52",
+                        },
+                      ]
+                    }
+                  >
+                    Hoàn thành
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "column",
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    SON00110
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    Khách lẻ
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#98a1b1",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 50,
+                        "fontWeight": "normal",
+                        "marginTop": 18,
+                      }
+                    }
+                  >
+                    18 thg 5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": undefined,
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 57,
+                        "fontWeight": "normal",
+                        "letterSpacing": 0.5,
+                      }
+                    }
+                  >
+                    3.000
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontFamily": "HelveticaNeue-Medium",
+                          "fontSize": 50,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5,
+                          "marginTop": 18,
+                        },
+                        Object {
+                          "color": "#E2974D",
+                        },
+                      ]
+                    }
+                  >
+                    Đang giao dịch
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#e6e8ea",
+                    "borderWidth": 0.5,
+                    "height": 1,
+                    "marginHorizontal": 14,
+                    "marginTop": 35.5,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

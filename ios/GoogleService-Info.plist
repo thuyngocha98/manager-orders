@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>114294874497-iuebbugj6b3e6ijh10b7o36bfve2jb4f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.114294874497-iuebbugj6b3e6ijh10b7o36bfve2jb4f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>114294874497-re8bg445it6b3i3e3t4128im5cfhlkc8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmrUE0RTHG60Jq6LASoDmEXu4zY6N_2pA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>114294874497</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.meka</string>
+	<key>PROJECT_ID</key>
+	<string>meka-7a083</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meka-7a083.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:114294874497:ios:aca5bcd5f5537d42bfc880</string>
+	<key>DATABASE_URL</key>
+	<string>https://meka-7a083.firebaseio.com</string>
+</dict>
+</plist>

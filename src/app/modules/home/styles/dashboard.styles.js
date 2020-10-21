@@ -1,0 +1,237 @@
+import {StyleSheet} from 'react-native';
+import Colors from '@const/Colors';
+import {responsiveHeight, responsiveWidth} from '@utils/DimenUtils';
+import Fonts from '@const/Fonts';
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: Colors.backgroundColor,
+  },
+  containerHeader: {
+    flexDirection: 'column',
+  },
+  //============== style modal ===========
+  mainModal: {
+    justifyContent: 'flex-end',
+    margin: 0,
+  },
+  viewCalendar: {
+    width: responsiveWidth(375),
+    height: responsiveHeight(320),
+    justifyContent: 'flex-start',
+  },
+  viewHeaderCalendar: {
+    position: 'absolute',
+    top: 0,
+    marginLeft: responsiveWidth(80),
+    width: responsiveWidth(215),
+    height: responsiveHeight(40),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewSelectYear: {
+    paddingTop: responsiveHeight(40),
+    width: responsiveWidth(375),
+    height: responsiveHeight(370),
+    backgroundColor: Colors.white,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: responsiveHeight(15),
+  },
+  txtTitleYear: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.giant,
+    fontWeight: 'normal',
+    letterSpacing: 0.8,
+  },
+  viewBtnCancel: {
+    paddingHorizontal: responsiveWidth(35),
+    height: responsiveHeight(40),
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: responsiveWidth(5),
+  },
+  btnCancel: {
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.newText,
+    fontWeight: 'bold',
+    color: Colors.txtDark,
+  },
+  viewBtnChoose: {
+    flexDirection: 'row',
+    alignSelf: 'flex-end',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginRight: responsiveWidth(15),
+    marginTop: responsiveHeight(10),
+  },
+  // ============ style header =========
+  backgroundImage: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    width: responsiveWidth(376),
+    height: responsiveHeight(218),
+    tintColor: Colors.darkGreen,
+    resizeMode: 'stretch',
+  },
+  headerMenu: {
+    marginTop: responsiveHeight(6),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    height: responsiveHeight(32),
+    marginHorizontal: responsiveWidth(15),
+  },
+  viewAbsoluteAvatar: {
+    position: 'absolute',
+    width: responsiveHeight(32),
+    height: responsiveHeight(32),
+    borderRadius: responsiveHeight(16),
+    top: 0,
+    left: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewAvatar: {
+    backgroundColor: Colors.gray,
+    width: responsiveHeight(32),
+    height: responsiveHeight(32),
+    borderRadius: responsiveHeight(16),
+    overflow: 'hidden',
+  },
+  avatar: {
+    width: responsiveHeight(32),
+    height: responsiveHeight(32),
+  },
+  viewIconRightHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  viewIcon: {
+    marginLeft: responsiveWidth(23.7),
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewIconNotification: {
+    marginLeft: responsiveWidth(23.7),
+    marginRight: responsiveWidth(12.3),
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewNumberNotification: {
+    width: responsiveHeight(19),
+    height: responsiveHeight(19),
+    backgroundColor: Colors.tomato,
+    position: 'absolute',
+    top: -responsiveHeight(11.5),
+    right: -responsiveHeight(12.5),
+    borderRadius: responsiveHeight(9.5),
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  txtNumberNotification: {
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.tiny,
+    fontWeight: 'bold',
+    color: Colors.white,
+  },
+  viewTitleAndTime: {
+    marginHorizontal: responsiveWidth(15),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  titleAndTime: {
+    flexDirection: 'column',
+  },
+  txtTitle: {
+    fontSize: Fonts.size.h3,
+    fontFamily: Fonts.type.medium,
+    fontWeight: 'bold',
+    color: Colors.white,
+  },
+  txtTime: {
+    marginTop: responsiveHeight(3),
+    fontSize: Fonts.size.small,
+    fontFamily: Fonts.type.medium,
+    color: Colors.txtOnBackgroundHeader,
+    fontWeight: 'normal',
+  },
+  //========== style process =======
+  viewMainProcess: {
+    marginHorizontal: responsiveWidth(15),
+    marginTop: responsiveHeight(18),
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  //=========== style chart =======
+  viewChart: {
+    marginHorizontal: responsiveWidth(15),
+    flex: 1,
+    flexDirection: 'column',
+    marginBottom: responsiveHeight(15),
+  },
+  box: {
+    paddingTop: responsiveHeight(15),
+    backgroundColor: Colors.white,
+    borderRadius: 5,
+    marginTop: responsiveHeight(15),
+    flexDirection: 'column',
+  },
+  headerBox: {
+    paddingHorizontal: responsiveWidth(15),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  titleBox: {
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'bold',
+    color: Colors.txtDark,
+  },
+  timeBox: {
+    fontFamily: Fonts.type.italic,
+    fontSize: Fonts.size.medium,
+    color: Colors.txtDark,
+    marginRight: responsiveWidth(10),
+  },
+  viewTimeBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  contentBox: {
+    flexDirection: 'column',
+    paddingHorizontal: responsiveWidth(15),
+  },
+  viewTotal: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginVertical: responsiveHeight(15),
+    marginHorizontal: responsiveWidth(15),
+  },
+  txtTotal: {
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.medium,
+    fontWeight: 'bold',
+    color: Colors.txtDark,
+  },
+  txtNumberTotal: {
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.medium,
+    fontWeight: 'bold',
+    color: Colors.lightGreen,
+    marginLeft: responsiveWidth(5),
+  },
+});
+export default styles;

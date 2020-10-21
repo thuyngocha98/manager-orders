@@ -1,0 +1,337 @@
+import {StyleSheet} from 'react-native';
+import Colors from '@const/Colors';
+import {responsiveHeight, responsiveWidth} from '@utils/DimenUtils';
+import Fonts from '@const/Fonts';
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: Colors.backgroundColor,
+  },
+  viewProduct: {
+    backgroundColor: Colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+  },
+  // ============ style modal price ===========
+  viewModalPrice: {},
+  txtTitleModalPrice: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    paddingVertical: responsiveHeight(15),
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+  },
+  // ============ style modal note // ========== style modal ========
+  viewModalNote: {
+    flex: 1,
+    borderRadius: 10,
+    backgroundColor: Colors.white,
+    flexDirection: 'column',
+  },
+  txtTitleModalNote: {
+    marginVertical: responsiveHeight(15),
+    textAlign: 'center',
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.giant,
+    fontWeight: 'normal',
+  },
+  viewInputNote: {
+    marginHorizontal: responsiveWidth(15),
+    borderWidth: 1,
+    borderColor: Colors.gray,
+    padding: 5,
+    borderRadius: 5,
+    marginBottom: responsiveHeight(15),
+  },
+  input: {
+    paddingTop: 0,
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.giant,
+    fontWeight: 'normal',
+    height: responsiveHeight(100),
+    textAlignVertical: 'top',
+  },
+  lineModal: {
+    width: '100%',
+    height: 1,
+    backgroundColor: Colors.gray,
+  },
+  viewBtnModal: {
+    flex: 1,
+    marginHorizontal: responsiveWidth(15),
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  viewTxtBtnModal: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: responsiveHeight(15),
+  },
+  txtBtnModal: {
+    color: Colors.lightGreen,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'normal',
+  },
+  // ============ style content =======
+  viewContent: {
+    flex: 1,
+  },
+  // ============ view item row =========
+  viewItemRow: {
+    paddingVertical: responsiveHeight(15),
+    marginHorizontal: responsiveWidth(15),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+  },
+  txtItemRow: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.newText,
+    fontWeight: 'normal',
+  },
+  viewItemRowSelect: {
+    paddingVertical: responsiveHeight(15),
+    marginHorizontal: responsiveWidth(15),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+  },
+  txtItemRowSelect: {
+    color: Colors.lightGreen,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.newText,
+    fontWeight: 'bold',
+  },
+  // ============ style no product ==========
+  viewNoItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: responsiveWidth(15),
+    paddingVertical: responsiveHeight(15),
+  },
+  viewTextItem: {
+    marginLeft: responsiveWidth(10),
+  },
+  txtTitleAddItem: {
+    color: Colors.lightGreen,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'normal',
+  },
+  txtDescAddItem: {
+    color: Colors.gray,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.medium,
+    fontWeight: 'normal',
+  },
+  // =============== style have product ============
+  viewHaveProduct: {},
+  viewHaveItemProduct: {},
+  viewInfoProduct: {
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingBottom: responsiveHeight(15),
+    paddingHorizontal: responsiveWidth(15),
+  },
+  viewImageProduct: {
+    width: responsiveHeight(50),
+    height: responsiveHeight(50),
+    borderRadius: 8,
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: Colors.line,
+    marginRight: responsiveWidth(10),
+  },
+  imageProduct: {
+    width: responsiveHeight(50),
+    height: responsiveHeight(50),
+    resizeMode: 'stretch',
+  },
+  viewLoading: {
+    position: 'absolute',
+    top: responsiveHeight(15),
+    left: responsiveHeight(15),
+  },
+  viewContentProduct: {
+    flex: 3,
+  },
+  txtNameProduct: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'normal',
+  },
+  viewSelectNumberProduct: {
+    marginRight: -responsiveWidth(5),
+    marginLeft: responsiveWidth(5),
+    flex: 1.5,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  viewNumberProduct: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingVertical: responsiveHeight(5),
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: Colors.line,
+    borderRadius: 5,
+  },
+  viewBtnAdjust: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+  },
+  txtNumberProduct: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.h4,
+    fontWeight: 'normal',
+  },
+  btnAdjustNumberProduct: {
+    color: Colors.lightGreen,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.h2,
+    fontWeight: 'normal',
+  },
+  viewDeleteProduct: {
+    alignSelf: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: responsiveHeight(20),
+    height: responsiveHeight(20),
+  },
+  viewSelectPrice: {
+    paddingVertical: responsiveHeight(15),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: responsiveWidth(15),
+  },
+  txtTypePrice: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.newText,
+    fontWeight: 'normal',
+  },
+  viewPrice: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  txtValid: {
+    color: Colors.tomato,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.medium,
+    fontWeight: 'normal',
+    textAlign: 'center',
+  },
+  // =============== style item product =========
+  viewItemProduct: {
+    paddingTop: responsiveHeight(15),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  viewMainItemProduct: {
+    borderTopWidth: 1,
+    borderTopColor: Colors.line,
+    marginHorizontal: responsiveWidth(15),
+    paddingBottom: responsiveHeight(15),
+  },
+  // =============== style customer =========
+  viewCustomer: {
+    backgroundColor: Colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+    marginTop: responsiveHeight(10),
+  },
+  viewInfoCustomer: {},
+  viewHeaderTitleCustomer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  viewIconClear: {
+    alignSelf: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: responsiveHeight(20),
+    height: responsiveHeight(20),
+  },
+  contentCustomer: {
+    paddingHorizontal: responsiveWidth(15),
+    paddingBottom: responsiveHeight(15),
+  },
+  txtTitleCustomer: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'normal',
+    marginBottom: responsiveHeight(2),
+  },
+  txtInfoCustomer: {
+    color: Colors.gray,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.newText,
+    fontWeight: 'normal',
+    marginTop: responsiveHeight(2),
+  },
+  // ================ style paid ===========
+  viewIsPaid: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginVertical: responsiveHeight(10),
+    backgroundColor: Colors.white,
+    paddingHorizontal: responsiveWidth(15),
+    paddingVertical: responsiveHeight(15),
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+  },
+  txtTitlePaid: {
+    color: Colors.txtDark,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.text,
+    fontWeight: 'normal',
+  },
+  // ============= style button create order =====
+  viewCreateOrder: {
+    height: responsiveHeight(90),
+    backgroundColor: Colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.line,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderTopWidth: 1,
+    borderTopColor: Colors.line,
+  },
+  viewButtonCreateOrder: {
+    backgroundColor: Colors.darkGreen,
+    borderRadius: 8,
+    paddingVertical: responsiveHeight(15),
+    paddingHorizontal: responsiveWidth(120),
+  },
+  txtCreateOrders: {
+    color: Colors.white,
+    fontFamily: Fonts.type.medium,
+    fontSize: Fonts.size.giant,
+    fontWeight: 'normal',
+  },
+});
+export default styles;

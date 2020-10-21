@@ -1,0 +1,1326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#116149",
+        "flexDirection": "column",
+        "height": 226.5,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 70,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 14,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={71}
+            bbWidth={18.5}
+            focusable={false}
+            height={71}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 71,
+                  "width": 18,
+                },
+              ]
+            }
+            vbHeight={447.243}
+            vbWidth={447.243}
+            width={18.5}
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M420.361 192.229a31.967 31.967 0 00-5.535-.41H99.305l6.88-3.2a63.998 63.998 0 0018.08-12.8l88.48-88.48c11.653-11.124 13.611-29.019 4.64-42.4-10.441-14.259-30.464-17.355-44.724-6.914a32.018 32.018 0 00-3.276 2.754l-160 160c-12.504 12.49-12.515 32.751-.025 45.255l.025.025 160 160c12.514 12.479 32.775 12.451 45.255-.063a32.084 32.084 0 002.745-3.137c8.971-13.381 7.013-31.276-4.64-42.4l-88.32-88.64a64.002 64.002 0 00-16-11.68l-9.6-4.32h314.24c16.347.607 30.689-10.812 33.76-26.88 2.829-17.445-9.019-33.88-26.464-36.71z"
+                fill={4294967295}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "HelveticaNeue-Medium",
+              "fontSize": 60.5,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Lịch sử mua hàng
+        </Text>
+        <View
+          style={
+            Object {
+              "width": 18.5,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f0f3f8",
+        "borderColor": "#116149",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "margin": 14,
+        "paddingLeft": 4.5,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight={71}
+      bbWidth={18.5}
+      fill="#116149"
+      focusable={false}
+      height={71}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 71,
+            "width": 18,
+          },
+        ]
+      }
+      vbHeight={20}
+      vbWidth={20}
+      width={18.5}
+    >
+      <RNSVGGroup
+        fill={4279329097}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGDefs>
+          <RNSVGPath
+            d="M10.5 2a8.5 8.5 0 016.677 13.761l4.53 4.532a1 1 0 01-1.414 1.414l-4.532-4.53A8.5 8.5 0 1110.5 2zm0 2a6.5 6.5 0 104.548 11.144l.045-.051a.716.716 0 01.05-.046A6.5 6.5 0 0010.5 4z"
+            name="a"
+          />
+        </RNSVGDefs>
+        <RNSVGGroup
+          fill={null}
+          fillRule={0}
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              -2,
+              -2,
+            ]
+          }
+          propList={
+            Array [
+              "fill",
+              "fillRule",
+            ]
+          }
+        >
+          <RNSVGMask
+            fill={4294967295}
+            height="100%"
+            maskContentUnits={1}
+            maskTransform={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            maskUnits={0}
+            name="b"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width="100%"
+            x="0%"
+            y="0%"
+          >
+            <RNSVGUse
+              height={0}
+              href="a"
+              width={0}
+              x={0}
+              y={0}
+            />
+          </RNSVGMask>
+          <RNSVGUse
+            fill={4279329097}
+            height={71}
+            href="a"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width={18.5}
+            x={0}
+            y={0}
+          />
+          <RNSVGGroup
+            fill={4279329097}
+            mask="b"
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M0 0h24.161v24H0z"
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <TextInput
+      allowFontScaling={true}
+      placeholder="Tìm kiếm"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "fontFamily": "HelveticaNeue-Medium",
+          "fontSize": 53.5,
+          "height": 142.5,
+          "marginLeft": 4.5,
+          "paddingVertical": 0,
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "id": 0,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00050",
+            "priceOrder": "99,000",
+            "statusOrder": "Hủy bỏ",
+            "time": "25/01/2019 17:12:21",
+          },
+          Object {
+            "id": 2,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00045",
+            "priceOrder": "105,000",
+            "statusOrder": "Hoàn thành",
+            "time": "22/01/2019 17:12:21",
+          },
+          Object {
+            "id": 3,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00040",
+            "priceOrder": "300,000",
+            "statusOrder": "Hoàn thành",
+            "time": "20/01/2019 18:12:21",
+          },
+          Object {
+            "id": 4,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00050",
+            "priceOrder": "99,000",
+            "statusOrder": "Hủy bỏ",
+            "time": "25/01/2019 17:12:21",
+          },
+          Object {
+            "id": 5,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00045",
+            "priceOrder": "105,000",
+            "statusOrder": "Hoàn thành",
+            "time": "22/01/2019 17:12:21",
+          },
+          Object {
+            "id": 6,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00040",
+            "priceOrder": "300,000",
+            "statusOrder": "Hoàn thành",
+            "time": "20/01/2019 18:12:21",
+          },
+          Object {
+            "id": 7,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00050",
+            "priceOrder": "99,000",
+            "statusOrder": "Hủy bỏ",
+            "time": "25/01/2019 17:12:21",
+          },
+          Object {
+            "id": 8,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00045",
+            "priceOrder": "105,000",
+            "statusOrder": "Hoàn thành",
+            "time": "22/01/2019 17:12:21",
+          },
+          Object {
+            "id": 9,
+            "nameCustomer": "Trần Thu Quỳnh",
+            "nameOrder": "SON00040",
+            "priceOrder": "300,000",
+            "statusOrder": "Hoàn thành",
+            "time": "20/01/2019 18:12:21",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00050
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#E2974D",
+                    },
+                  ]
+                }
+              >
+                Hủy bỏ
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                99,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              25/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00045
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                105,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              22/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00040
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                300,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              20/01/2019 18:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00050
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#E2974D",
+                    },
+                  ]
+                }
+              >
+                Hủy bỏ
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                99,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              25/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00045
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                105,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              22/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00040
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                300,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              20/01/2019 18:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00050
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#E2974D",
+                    },
+                  ]
+                }
+              >
+                Hủy bỏ
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                99,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              25/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00045
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                105,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              22/01/2019 17:12:21
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#e6e8ea",
+                "borderTopWidth": 1,
+                "paddingHorizontal": 14,
+                "paddingVertical": 53.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 53.5,
+                    "fontWeight": "normal",
+                  }
+                }
+              >
+                SON00040
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#E2974D",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "color": "#13AA52",
+                    },
+                  ]
+                }
+              >
+                Hoàn thành
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Trần Thu Quỳnh
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                300,000
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#98a1b1",
+                  "fontFamily": "HelveticaNeue-Medium",
+                  "fontSize": 50,
+                  "fontWeight": "normal",
+                  "marginTop": 18,
+                }
+              }
+            >
+              20/01/2019 18:12:21
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

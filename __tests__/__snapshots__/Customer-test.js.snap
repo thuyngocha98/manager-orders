@@ -1,0 +1,1601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f0f3f8",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#116149",
+        "flexDirection": "column",
+        "height": 226.5,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 70,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "HelveticaNeue-Medium",
+              "fontSize": 60.5,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Khách hàng
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "opacity": 1,
+                "padding": 18,
+              }
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight={71}
+              bbWidth={71}
+              focusable={false}
+              height={71}
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": 71,
+                    "width": 71,
+                  },
+                ]
+              }
+              vbHeight={20}
+              vbWidth={20}
+              width={71}
+            >
+              <RNSVGGroup>
+                <RNSVGDefs>
+                  <RNSVGPath
+                    d="M12 2c.789 0 1.429.64 1.429 1.429l-.001 7.142h7.143a1.429 1.429 0 110 2.858l-7.143-.001v7.143a1.428 1.428 0 11-2.857 0v-7.143H3.429a1.43 1.43 0 010-2.857h7.142V3.429c0-.79.64-1.429 1.429-1.429z"
+                    name="a"
+                  />
+                </RNSVGDefs>
+                <RNSVGGroup
+                  fill={null}
+                  fillRule={0}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      -2,
+                      -2,
+                    ]
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                      "fillRule",
+                    ]
+                  }
+                >
+                  <RNSVGMask
+                    fill={4294967295}
+                    height="100%"
+                    maskContentUnits={1}
+                    maskTransform={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    maskUnits={0}
+                    name="b"
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0%"
+                    y="0%"
+                  >
+                    <RNSVGUse
+                      height={0}
+                      href="a"
+                      width={0}
+                      x={0}
+                      y={0}
+                    />
+                  </RNSVGMask>
+                  <RNSVGUse
+                    fill={4294967295}
+                    height={0}
+                    href="a"
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                    width={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGGroup
+                    fill={4294967295}
+                    mask="b"
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGPath
+                      d="M0 0h24.161v24H0z"
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginLeft": 9,
+                "paddingHorizontal": 4.5,
+                "paddingVertical": 10.5,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              onChangeText={[Function]}
+              placeholder="Nhập tên, số điện thoại"
+              rejectResponderTermination={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#0a1f44",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "height": 106.5,
+                    "marginRight": 4.5,
+                    "paddingVertical": 0,
+                  },
+                  Object {
+                    "width": 0,
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={71}
+                bbWidth={71}
+                focusable={false}
+                height={71}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 71,
+                      "width": 71,
+                    },
+                  ]
+                }
+                vbHeight={20}
+                vbWidth={20}
+                width={71}
+              >
+                <RNSVGGroup>
+                  <RNSVGDefs>
+                    <RNSVGPath
+                      d="M10.5 2a8.5 8.5 0 016.677 13.761l4.53 4.532a1 1 0 01-1.414 1.414l-4.532-4.53A8.5 8.5 0 1110.5 2zm0 2a6.5 6.5 0 104.548 11.144l.045-.051a.716.716 0 01.05-.046A6.5 6.5 0 0010.5 4z"
+                      name="a"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGGroup
+                    fill={null}
+                    fillRule={0}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        -2,
+                        -2,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  >
+                    <RNSVGMask
+                      fill={4294967295}
+                      height="100%"
+                      maskContentUnits={1}
+                      maskTransform={
+                        Array [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                        ]
+                      }
+                      maskUnits={0}
+                      name="b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0%"
+                      y="0%"
+                    >
+                      <RNSVGUse
+                        height={0}
+                        href="a"
+                        width={0}
+                        x={0}
+                        y={0}
+                      />
+                    </RNSVGMask>
+                    <RNSVGUse
+                      fill={4294967295}
+                      height={71}
+                      href="a"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      width={71}
+                      x={0}
+                      y={0}
+                    />
+                    <RNSVGGroup
+                      fill={4294967295}
+                      mask="b"
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M0 0h24.161v24H0z"
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 142.5,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginLeft": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#13AA52",
+            "fontFamily": "HelveticaNeue-Medium",
+            "fontSize": 50,
+            "fontWeight": "normal",
+          }
+        }
+      >
+        76 
+        Khách hàng
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 89,
+          "justifyContent": "flex-start",
+          "marginRight": 14,
+          "opacity": 1,
+          "width": 23,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={78.5}
+        bbWidth={20.5}
+        fill="#98a1b1"
+        focusable={false}
+        height={78.5}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 78,
+              "width": 20,
+            },
+          ]
+        }
+        vbHeight={515.554}
+        vbWidth={515.554}
+        width={20.5}
+      >
+        <RNSVGGroup
+          fill={4288192945}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M96.666 257.778c0-77.635 55.647-141.267 128.889-156.322v27.433l96.667-64.444L225.555 0v34.968C116.447 50.684 32.221 144.4 32.221 257.778c0 68.268 30.612 129.428 78.693 170.827l56.424-37.619c-42.608-29.023-70.672-77.885-70.672-133.208zM404.639 86.951l-56.424 37.619c42.608 29.022 70.673 77.885 70.673 133.208 0 77.731-55.535 142.223-128.891 157.26v-28.373l-96.667 64.444 96.667 64.444v-34.838c109.12-15.72 193.335-109.55 193.335-222.938.001-68.267-30.611-129.427-78.693-170.826z"
+            fill={4288192945}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "address": "AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh",
+            "id": 0,
+            "name": "Chị Lý",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh",
+            "id": 1,
+            "name": "Chị Thảo",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "Landmark2, Vinhomes, Quận Bình Thạnh, Hồ Chí Minh",
+            "id": 2,
+            "name": "Cty Odys",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh",
+            "id": 3,
+            "name": "THACO BINH TRIEU",
+            "orderStatus": "Hoàn thành",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "23 Nguyễn Hữu Thọ, Quận 7, Hồ Chí Minh",
+            "id": 4,
+            "name": "Chị Chi",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "Số 17 Mai Chí Thọ, Phường Bình Khánh, Quận 2, Hồ Chí Minh",
+            "id": 5,
+            "name": "Cty Thuận Việt",
+            "orderStatus": "Hoàn thành",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "Landmark2, Vinhomes, Quận Bình Thạnh, Hồ Chí Minh",
+            "id": 6,
+            "name": "Cty Odys",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh",
+            "id": 7,
+            "name": "THACO BINH TRIEU",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "23 Nguyễn Hữu Thọ, Quận 7, Hồ Chí Minh",
+            "id": 8,
+            "name": "Chị Chi",
+            "orderStatus": "Đang giao dịch",
+            "phone": "0916111616",
+          },
+          Object {
+            "address": "Số 17 Mai Chí Thọ, Phường Bình Khánh, Quận 2, Hồ Chí Minh",
+            "id": 9,
+            "name": "Cty Thuận Việt",
+            "orderStatus": "Hoàn thành",
+            "phone": "0916111616",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={0}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Chị Lý
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Chị Thảo
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Cty Odys
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Landmark2, Vinhomes, Quận Bình Thạnh, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  THACO BINH TRIEU
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#13AA52",
+                      },
+                    ]
+                  }
+                >
+                  Hoàn thành
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Chị Chi
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                23 Nguyễn Hữu Thọ, Quận 7, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Cty Thuận Việt
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#13AA52",
+                      },
+                    ]
+                  }
+                >
+                  Hoàn thành
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Số 17 Mai Chí Thọ, Phường Bình Khánh, Quận 2, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Cty Odys
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Landmark2, Vinhomes, Quận Bình Thạnh, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  THACO BINH TRIEU
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                AQUA2 - Vinhomes Golden River - Số 02 Tôn Đức Thắng, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Chị Chi
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#E2974D",
+                      },
+                    ]
+                  }
+                >
+                  Đang giao dịch
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                23 Nguyễn Hữu Thọ, Quận 7, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomColor": "#e6e8ea",
+                  "borderBottomWidth": 1,
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 53.5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0a1f44",
+                      "fontFamily": "HelveticaNeue-Medium",
+                      "fontSize": 53.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5,
+                    }
+                  }
+                >
+                  Cty Thuận Việt
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#E2974D",
+                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontSize": 53.5,
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "color": "#13AA52",
+                      },
+                    ]
+                  }
+                >
+                  Hoàn thành
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                0916111616
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#98a1b1",
+                    "fontFamily": "HelveticaNeue-Medium",
+                    "fontSize": 50,
+                    "fontWeight": "normal",
+                    "marginTop": 18,
+                  }
+                }
+              >
+                Số 17 Mai Chí Thọ, Phường Bình Khánh, Quận 2, Hồ Chí Minh
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
